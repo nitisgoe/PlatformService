@@ -20,4 +20,4 @@ if (app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
+PrepDb.PrepPopulation(app);
